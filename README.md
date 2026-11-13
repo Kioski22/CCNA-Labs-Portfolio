@@ -1,95 +1,139 @@
-# CCNA Labs Portfolio
+CCNA Labs Portfolio
 
-This repository is a personal portfolio of Cisco CCNA lab exercises completed during my study preparation for the CCNA certification. It includes hands-on Packet Tracer activities covering switching, routing, IP services, security, and network troubleshooting.
+A collection of hands-on Cisco CCNA labs completed in Cisco Packet Tracer while preparing for the CCNA (200-301) exam. Every lab was configured and tested by hand, from basic switching to routing, IP services, security and wireless.
 
-## Overview
+Author: Randy M. Flores · LinkedIn · CCNA badge (Credly)
 
-The labs in this repository are organized around practical networking concepts and real-world Cisco configurations. Each exercise demonstrates a focused topic and helps reinforce core CCNA skills such as:
+⭐ Featured: CCNA Mega Lab
 
-- VLANs and trunking
-- Spanning Tree Protocol (STP)
-- Routing protocols including static routing and EIGRP
-- IPv6 implementation and troubleshooting
-- Access control lists (ACLs)
-- Network services such as DHCP, DNS, NTP, SNMP, and Syslog
-- Security hardening and NAT
-- Wireless LAN concepts and QoS
+CCNA MEGA LAB.pka is the centerpiece of this repository: one large Packet Tracer lab that covers every topic of the CCNA in a single network. Switching and VLANs, routing, IP services, security and wireless all work together in one topology, much like a real network.
 
-## Repository Contents
+The lab was created by Jeremy's IT Lab (JITL) as part of his free CCNA course (jeremysitlab.com). I completed it myself in Packet Tracer as part of my CCNA preparation. Credit for the lab design and topology goes to JITL.
 
-This portfolio includes Packet Tracer files (`.pkt`) and a packaged lab archive (`.pka`) covering a broad range of CCNA topics.
+If you open only one file here, open this one.
 
-### Core Networking Labs
-- Day 02 Lab - Connecting Devices
-- Day 03 Lab - OSI Model
-- Day 04 Lab - Basic Device Security
-- Day 06 Lab - Ethernet LAN Switching
-- Day 09 Lab - Interfaces
-- Day 11 Lab - Configuring Static Routes
-- Day 11 Lab - Troubleshooting Static Routes
-- Day 12 Lab - Life of a Packet
-- Day 15 Lab - VLSM
+What This Repository Covers
 
-### Switching and VLAN Topics
-- Day 16 Lab - VLANs (Part 1)
-- Day 17 Lab - VLANs (Part 2)
-- Day 18 Lab - Multilayer Switching
-- Day 19 Lab - DTP & VTP
-- Day 20 Lab - Analyzing STP
-- Day 21 Lab - Configuring Spanning Tree
-- Day 22 Lab - Rapid STP
-- Day 23 Lab - EtherChannel
-- Day 52 Lab - STP & HSRP Synchronization
+The labs are split into two sets:
 
-### Routing and Redundancy
-- Day 24 Lab - Floating Static Routes
-- Day 25 Lab - EIGRP Configuration
-- Day 29 Lab - HSRP Configuration
-- Day 31 Lab - IPv6 Configuration (Part 1)
-- Day 32 Lab - IPv6 Configuration (Part 2)
-- Day 33 Lab - IPv6 Static Routes
-- Day 53 Lab - GRE Tunnels
+Day-by-day study labs: a structured set that follows the CCNA topics in order, from connecting devices to wireless LANs.
+Additional hands-on labs: 29 further Packet Tracer labs, focused on routing, redundancy, IP services, security and troubleshooting.
 
-### Security and Access Control
-- Day 34 Lab - Standard ACLs
-- Day 35 Lab - Extended ACLs
-- Day 44 Lab - Static NAT
-- Day 45 Lab - Dynamic NAT
-- Day 49 Lab - Port Security
-- Day 50 Lab - DHCP Snooping
-- Day 51 Lab - Dynamic ARP Inspection
+Topics covered across both sets:
 
-### Services, Management, and Wireless
-- Day 37 Lab - NTP
-- Day 38 Lab - DNS
-- Day 39 Lab - DHCP
-- Day 40 Lab - SNMP
-- Day 41 Lab - Syslog
-- Day 42 Lab - SSH
-- Day 43 Lab - FTP & TFTP
-- Day 46 Lab - Voice VLANs
-- Day 47 Lab - QoS
-- Day 58 Lab - Wireless LANs
+VLANs, trunking, DTP, VTP, EtherChannel and multilayer switching
+Spanning Tree Protocol (STP, Rapid STP) and its link with HSRP
+Static and floating static routes, VLSM
+OSPF, OSPFv3 and EIGRP, including route summarization
+First-hop redundancy with HSRP
+IPv4 and IPv6 addressing, IPv6 static routes
+Access control lists (standard, extended, named)
+NAT and PAT (static, dynamic, overload)
+DHCP, DHCP relay, DHCP snooping, DNS, NTP, SNMP, Syslog, SSH, FTP and TFTP
+Port security, Dynamic ARP Inspection, GRE tunnels
+Wireless LANs and wireless LAN controllers (WLC), voice VLANs and QoS
+Set 1: Day-by-Day Study Labs
+Core Networking
+Day 02 Lab - Connecting Devices
+Day 03 Lab - OSI Model
+Day 04 Lab - Basic Device Security
+Day 06 Lab - Ethernet LAN Switching
+Day 09 Lab - Interfaces
+Day 11 Lab - Configuring Static Routes
+Day 11 Lab - Troubleshooting Static Routes
+Day 12 Lab - Life of a Packet
+Day 15 Lab - VLSM
+Switching and VLANs
+Day 16 Lab - VLANs (Part 1)
+Day 17 Lab - VLANs (Part 2)
+Day 18 Lab - Multilayer Switching
+Day 19 Lab - DTP & VTP
+Day 20 Lab - Analyzing STP
+Day 21 Lab - Configuring Spanning Tree
+Day 22 Lab - Rapid STP
+Day 23 Lab - EtherChannel
+Day 52 Lab - STP & HSRP Synchronization
+Routing and Redundancy
+Day 24 Lab - Floating Static Routes
+Day 25 Lab - EIGRP Configuration
+Day 29 Lab - HSRP Configuration
+Day 31 Lab - IPv6 Configuration (Part 1)
+Day 32 Lab - IPv6 Configuration (Part 2)
+Day 33 Lab - IPv6 Static Routes
+Day 53 Lab - GRE Tunnels
+Security and Access Control
+Day 34 Lab - Standard ACLs
+Day 35 Lab - Extended ACLs
+Day 44 Lab - Static NAT
+Day 45 Lab - Dynamic NAT
+Day 49 Lab - Port Security
+Day 50 Lab - DHCP Snooping
+Day 51 Lab - Dynamic ARP Inspection
+Services, Management and Wireless
+Day 37 Lab - NTP
+Day 38 Lab - DNS
+Day 39 Lab - DHCP
+Day 40 Lab - SNMP
+Day 41 Lab - Syslog
+Day 42 Lab - SSH
+Day 43 Lab - FTP & TFTP
+Day 46 Lab - Voice VLANs
+Day 47 Lab - QoS
+Day 58 Lab - Wireless LANs
+Set 2: Additional Hands-On Labs (29 labs)
 
-## Files Included
+These labs go deeper into routing, redundancy, services and troubleshooting. Several combine more than one technology in a single topology.
 
-- `CCNA MEGA LAB.pka` — packaged Cisco Packet Tracer lab archive
-- `Day 16 activity.txt` — activity notes for VLAN work
-- `Day 32 cisco Labs.txt` — additional notes and lab references
-- `day 13 quiz.txt` — quiz-related study notes
+Switching
+STP Lab
+STP Lab 2
+Trunking Lab
+VLAN Lab
+Switching Mastery: VLANs and Access Ports (2 lab files)
+Routing
+Static Routes
+Routing Lab 1
+OSPF Fundamentals
+OSPF Config Lab
+OSPFv3 Lab
+OSPF + SSH Labs
+OSPF + EIGRP Summarization
+IPv6 Lab
+IPv6 Lab 2
+Redundancy
+HSRP
+HSRP Lab 2
+IP Services and Security
+DHCP
+DHCP Lab
+DHCP Snooping
+DHCP Relay, SNMP, OSPF, Logging and NTP Lab
+DNS Lab
+NAT / PAT
+ACL Standard Basic Lab
+ACL Extended Lab
+ACL Named Extended Lab
+Wireless
+WLC
+WLC Troubleshooting (not tagging other VLANs)
+Combined
+Week Mega Lab
+Other Files
+CCNA MEGA LAB.pka: the featured all-topics lab (see above)
+Day 16 activity.txt: activity notes for the VLAN labs
+Day 32 cisco Labs.txt: extra notes and lab references for IPv6
+day 13 quiz.txt: quiz and study notes
+How to Use
+Install Cisco Packet Tracer and open a lab file (.pkt, or .pka for the archive).
+Read the topology and lab objectives before changing anything.
+Configure the devices, then check connectivity with ping, traceroute and the relevant show commands.
+Compare your result with the lab goal, and use the notes files where one is provided.
+Related Projects
 
-## How to Use
+Beyond Packet Tracer, I also built two larger labs on virtual routers:
 
-1. Open the Packet Tracer files (`.pkt`) in Cisco Packet Tracer.
-2. Review the lab objectives and topology before making changes.
-3. Configure devices according to the lab requirements.
-4. Validate connectivity and verify results.
-5. Use the included notes for extra context and study reinforcement.
+Redundant-Network-Failover-Lab: four VyOS routers in GNS3 running OSPF with BFD, with measured failover tests and troubleshooting tickets.
+NOC-Monitoring-Lab: a monitoring environment in GNS3 and VMware using LibreNMS, SNMPv3, syslog, Discord alerts and Oxidized config backups.
+License
 
-## Notes
-
-This repository is intended as a study and portfolio resource for learning Cisco networking fundamentals. It reflects hands-on practice and personal lab work completed during CCNA preparation.
-
-## License
-
-This project is shared for educational and portfolio purposes.
+Shared for educational and portfolio purposes.
